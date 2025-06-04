@@ -1,0 +1,39 @@
+{
+  "summary": "Remote work has grown in popularity, especially after the global pandemic, offering benefits like higher job satisfaction, flexibility, and cost savings for companies. However, challenges include employee isolation, productivity issues, and difficulties in team communication. Despite these, remote work is likely to persist, with hybrid models and improved technology facilitating its adoption.",
+  "sentiment_analysis": {
+    "tone": "neutral",
+    "score": 0,
+    "positive_aspects": [
+      "Higher job satisfaction",
+      "Increased flexibility",
+      "Lower operational costs for companies",
+      "Potential for hybrid models",
+      "Improved remote work technology"
+    ],
+    "negative_aspects": [
+      "Feelings of isolation among employees",
+      "Reduced collaboration and team dynamics",
+      "Difficulty maintaining productivity",
+      "Blurred work-life boundaries",
+      "Challenges in monitoring performance"
+    ]
+  },
+  "metadata": {
+    "text_type": "informational/analytical",
+    "keywords": ["remote work", "telecommuting", "flexibility", "productivity", "hybrid work"],
+    "language": "English",
+    "length": "medium"
+  }
+}
+Пояснения:
+Тональность (neutral, score 0): Текст сбалансирован, описывает как преимущества, так и недостатки удалённой работы без явного перевеса в позитив или негатив.
+
+Структура:
+
+summary — краткое содержание.
+
+sentiment_analysis — анализ тональности с аргументами.
+
+metadata — дополнительные метки для категоризации.
+
+Для более точной оценки можно использовать NLP-модели (например, VADER), но здесь приведена ручная разметка на основе логики текста.
