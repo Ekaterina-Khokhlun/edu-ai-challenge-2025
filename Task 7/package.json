@@ -1,0 +1,66 @@
+{
+  "name": "seabattle-es6",
+  "version": "2.0.0",
+  "description": "Modern Sea Battle game using ES6+ features with comprehensive testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node simple-tests.js",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:ci": "jest --coverage --ci --watchAll=false",
+    "test:simple": "node test-runner.js"
+  },
+  "keywords": [
+    "seabattle",
+    "battleship",
+    "game",
+    "es6",
+    "modern-javascript",
+    "testing",
+    "jest"
+  ],
+  "author": "ES6+ Modernization",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "jest": {
+    "preset": "jest-preset-es6",
+    "testEnvironment": "node",
+    "extensionsToTreatAsEsm": [".js"],
+    "globals": {
+      "jest": {
+        "useESM": true
+      }
+    },
+    "transform": {},
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js",
+      "!src/**/*.spec.js",
+      "!index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 60,
+        "lines": 60,
+        "statements": 60
+      }
+    },
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ]
+  }
+} 
