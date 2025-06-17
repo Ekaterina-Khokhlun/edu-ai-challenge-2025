@@ -1,0 +1,16 @@
+{
+  "name": "service-analyzer",
+  "version": "1.0.0",
+  "description": "Service Analysis Report Generator",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^4.0.0",
+    "chalk": "^5.0.0",
+    "markdown-it": "^13.0.0"
+  }
+} 
