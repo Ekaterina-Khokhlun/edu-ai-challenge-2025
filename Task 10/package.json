@@ -1,0 +1,14 @@
+{
+  "name": "product-search-tool",
+  "version": "1.0.0",
+  "description": "Console-based product search tool using OpenAI API",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "readline-sync": "^1.4.10"
+  }
+} 

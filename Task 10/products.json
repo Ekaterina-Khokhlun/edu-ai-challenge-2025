@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 99.99,
+      "rating": 4.5,
+      "in_stock": true,
+      "description": "High-quality wireless headphones with noise cancellation and long battery life"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "rating": 4.6,
+      "in_stock": true,
+      "description": "Feature-rich smartwatch with fitness tracking and heart rate monitoring"
+    },
+    {
+      "id": 3,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "price": 29.99,
+      "rating": 4.3,
+      "in_stock": true,
+      "description": "Non-slip yoga mat with excellent cushioning and carrying strap"
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "category": "Kitchen",
+      "price": 79.99,
+      "rating": 4.7,
+      "in_stock": false,
+      "description": "Programmable coffee maker with thermal carafe and auto-shutoff"
+    },
+    {
+      "id": 5,
+      "name": "Bestseller Novel",
+      "category": "Books",
+      "price": 14.99,
+      "rating": 4.8,
+      "in_stock": true,
+      "description": "Award-winning fiction novel with compelling storyline"
+    },
+    {
+      "id": 6,
+      "name": "Running Shoes",
+      "category": "Clothing",
+      "price": 89.99,
+      "rating": 4.4,
+      "in_stock": true,
+      "description": "Lightweight running shoes with superior cushioning and breathable mesh"
+    },
+    {
+      "id": 7,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 799.99,
+      "rating": 4.9,
+      "in_stock": true,
+      "description": "Latest smartphone with high-resolution camera and extended battery life"
+    },
+    {
+      "id": 8,
+      "name": "Dumbbells Set",
+      "category": "Fitness",
+      "price": 149.99,
+      "rating": 4.5,
+      "in_stock": false,
+      "description": "Adjustable dumbbells set with storage rack"
+    }
+  ]
+} 
