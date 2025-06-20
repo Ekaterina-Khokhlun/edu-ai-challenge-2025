@@ -1,0 +1,18 @@
+{
+  "frequently_mentioned_topics": [
+    {
+      "topic": "Interior and Software",
+      "mentions": 4
+    },
+    {
+      "topic": "New Model (2025)",
+      "mentions": 3
+    },
+    {
+      "topic": "Performance and Driving",
+      "mentions": 3
+    }
+  ],
+  "word_count": 168,
+  "speaking_speed_wpm": 150
+}
