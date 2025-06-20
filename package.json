@@ -1,21 +1,17 @@
 {
-  "name": "validation-library",
-  "version": "1.0.0",
-  "description": "A robust validation library for JavaScript",
-  "main": "validators.js",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "keywords": [
-    "validation",
-    "schema",
-    "typescript",
-    "javascript"
-  ],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
-} 
+      "name": "task-11-audio-tool",
+      "version": "1.0.0",
+      "description": "",
+      "main": "main.js",
+      "scripts": {
+        "start": "node main.js"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "dotenv": "^16.4.5",
+        "openai": "^4.52.0",
+        "readline-sync": "^1.4.10"
+      }
+    }
